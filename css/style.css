@@ -1,3 +1,60 @@
-h1 {
-  color: salmon;
+body {
+  background: rgb(237, 239, 236);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  letter-spacing: 1px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 75%;
+  margin: 0 auto;
+}
+h1, h2, p, button {
+  color: rgb(72, 72, 72);
+}
+h1, h2 {
+  margin-bottom: 0;
+}
+p {
+  margin-top: 0;
+}
+.sf, .ny, .london, .napa, .sonoma, .sf2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10em;
+  height: 11em;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  border: 10px solid rgb(237, 239, 236);
+  font-size: 30px;
+}
+.sf {
+  background-image: url('../img/san-francisco.jpg');
+}
+.ny {
+  background-image: url('../img/new-york.jpg');
+}
+.london {
+  background-image: url('../img/london.jpg');
+}
+.napa {
+  background-image: url('../img/napa.jpg');
+}
+.sonoma {
+  background-image: url('../img/sonoma.jpg');
+}
+.sf2 {
+  background-image: url('../img/san-francisco-2.jpg');
+}
+button {
+  border: 1px solid grey;
+  background-color: white;
+  text-align: center;
+  width: 25em;
+  height: 3em;
+  font-weight: bold;
+}
+footer {
+  padding: 3em;
 }
